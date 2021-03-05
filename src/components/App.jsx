@@ -22,11 +22,11 @@ function App() {
       <Router>
         <AuthProvider>
           <Switch>
-            {/* <PrivateRoute exact path="/" component={Interface} /> */}
             <Redirect exact from="/" to="/welcome" />
             <Route path="/welcome" component={Splash} />
             <Route path="/signup" component={Signup} />
             <Route path="/login" component={Login} />
+            {/* <PrivateRoute exact path="/interface" component={Interface} /> */}
           </Switch>
         </AuthProvider>
       </Router>
