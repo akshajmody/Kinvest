@@ -1,23 +1,23 @@
 const particlesConfig = {
   particles: {
     number: {
-      value: 274,
+      value: 35,
       density: {
         enable: true,
-        value_area: 1202.559045649141,
+        value_area: 450.559045649141,
       },
     },
     color: {
       value: "#0fff00",
     },
     shape: {
-      type: "circle",
+      type: "square",
       stroke: {
         width: 0,
         color: "#000000",
       },
       polygon: {
-        nb_sides: 5,
+        nb_sides: 6,
       },
       image: {
         src: "img/github.svg",
@@ -26,17 +26,17 @@ const particlesConfig = {
       },
     },
     opacity: {
-      value: 0.7575817359669818,
+      value: 0.6575817359669818,
       random: true,
       anim: {
-        enable: false,
-        speed: 4.235764235764235,
-        opacity_min: 0.3916083916083916,
+        enable: true,
+        speed: 1,
+        opacity_min: 0,
         sync: false,
       },
     },
     size: {
-      value: 3.945738208161363,
+      value: 1.945738208161363,
       random: true,
       anim: {
         enable: false,
@@ -47,23 +47,23 @@ const particlesConfig = {
     },
     line_linked: {
       enable: true,
-      distance: 96.20472365193127,
+      distance: 180,
       color: "#00ff00",
-      opacity: 0.5611942213029325,
-      width: 1,
+      opacity: 0.9611942213029325,
+      width: 1.2,
     },
     move: {
       enable: true,
-      speed: 4,
+      speed: 2,
       direction: "top",
-      random: false,
       straight: false,
+      random: true,
       out_mode: "out",
       bounce: false,
       attract: {
         enable: false,
-        rotateX: 600,
-        rotateY: 1200,
+        rotateX: 10000,
+        rotateY: 800,
       },
     },
   },
@@ -76,15 +76,15 @@ const particlesConfig = {
       },
       onclick: {
         enable: true,
-        mode: "repulse",
+        mode: "push",
       },
       resize: true,
     },
     modes: {
       grab: {
-        distance: 400,
+        distance: 200,
         line_linked: {
-          opacity: 1,
+          opacity: 1.5,
         },
       },
       bubble: {
