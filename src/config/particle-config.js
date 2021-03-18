@@ -1,7 +1,7 @@
 const particlesConfig = {
   particles: {
     number: {
-      value: 35,
+      value: 40,
       density: {
         enable: true,
         value_area: 450.559045649141,
@@ -11,7 +11,7 @@ const particlesConfig = {
       value: "#0fff00",
     },
     shape: {
-      type: "square",
+      type: "circle",
       stroke: {
         width: 0,
         color: "#000000",
@@ -36,7 +36,7 @@ const particlesConfig = {
       },
     },
     size: {
-      value: 1.945738208161363,
+      value: 2.945738208161363,
       random: true,
       anim: {
         enable: false,
@@ -54,7 +54,7 @@ const particlesConfig = {
     },
     move: {
       enable: true,
-      speed: 2,
+      speed: 1,
       direction: "top",
       straight: false,
       random: true,
@@ -82,7 +82,7 @@ const particlesConfig = {
     },
     modes: {
       grab: {
-        distance: 200,
+        distance: 400,
         line_linked: {
           opacity: 1.5,
         },
